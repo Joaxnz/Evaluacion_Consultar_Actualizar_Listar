@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de usuarios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <br><br><br>
+    <div class="container">
+        <h2>Registro de Estudiantes</h2><br>
+    
+            <label for="txtCodigo">Codigo</label>
+            <input type="number" class="form-control" id="txtCodigo" placeholder="Ingrese el codigo del estudiante">
+            
+
+            <div class="form-group">
+                <label for="txtNombre">Nombre:</label>
+                <input type="text" class="form-control" id="txtNombre" placeholder="Ingrese el Nombre del Estudiante">
+            
+
+            <div class="form-group">
+                <label for="txtApellido">Apellido:</label>
+                <input type="text" class="form-control" id="txtApellido" placeholder="Ingrese el Apellido del estudiante">
+            
+
+            <div class="form-group">
+                <label for="txtCurso">Curso:</label>
+                <input type="text" class="form-control" id="txtCurso" placeholder="Ingrese el curso del estudiante">
+
+            <div class="form-group">
+                <label for="txtCurso">Materia 1:</label>
+                <input type="text" class="form-control" id="txtMateria1" placeholder="Ingrese el curso del estudiante">
+
+            <div class="form-group">
+                <label for="txtCurso">Matera 2:</label>
+                <input type="text" class="form-control" id="txtMateria2" placeholder="Ingrese el curso del estudiante">
+
+            <div class="form-group">
+                <label for="txtCurso">Materia 3:</label>
+                <input type="text" class="form-control" id="txtMateria1" placeholder="Ingrese el curso del estudiante">
+    
+            <div class="form-group">
+                <label for="txtCurso">Nota 1:</label>
+                <input type="text" class="form-control" id="txtNota1" placeholder="Ingrese el curso del estudiante">
+
+            <div class="form-group">
+                <label for="txtCurso">Nota 2:</label>
+                <input type="text" class="form-control" id="txtNota2" placeholder="Ingrese el curso del estudiante">
+        
+            <div class="form-group">
+                <label for="txtCurso">Nota 3:</label>
+                <input type="text" class="form-control" id="txtNota2" placeholder="Ingrese el curso del estudiante">
+
+
+
+            
+                <br>
+            
+
+            <button type="button" class="btn btn-dark" id="btnAgregarEstudiante">Agregar</button>
+            <button type="button" class="btn btn-dark" id="btnListarEstudiante">Listar</button>
+            <br><br>
+            
+            <script src="/templates/js/Interfaz.js"></script>
+            <script src="/templates/js/enviar.js"></script>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Lista de estudiantes agregados</h2>
+        <table class="table table-hover" id="EstudianteTabla">
+        <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Curso</th>
+                <th>Materias</th>
+                <th>Notas</th>
+                <th>Juicio</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <div>
+        <h2>Buscar Estudiantes de un curso</h2>
+        <div class="form-group">
+            <label for="txtCursoo">Buscar:</label>
+            <input type="text" class="form-control" id="txtCodigoo" placeholder="Ingrese el codigo a buscar">
+            <br>
+            <button type="button" class="btn btn-dark" id="btnBuscarEstudiante">Buscar</button><br>
+            </thead>
+            </table>
+    </div><br>
+
+    <div class="container">
+        <h2>Actualizar Estudiante</h2><br>
+    
+            <label for="txtCodigo">Codigo</label>
+            <input type="number" class="form-control" disabled id="EdittxtCodigo" placeholder="Ingrese el codigo del estudiante">
+            
+            <div class="form-group">
+                <label for="txtNombre">Nombre:</label>
+                <input type="text" class="form-control"  id="EdittxtNombre" placeholder="Ingrese el Nombre del Estudiante">
+            <div class="form-group">
+                <label for="txtApellido">Apellido:</label>
+                <input type="text" class="form-control"  id="EdittxtApellido" placeholder="Ingrese el Apellido del estudiante">
+            <div class="form-group">
+                <label for="txtCurso">Curso:</label>
+                <input type="text" class="form-control"  id="EdittxtCurso" placeholder="Ingrese el curso del estudiante">
+            <div class="form-group">
+                <label for="txtCurso">Materia 1:</label>
+                <input type="text" class="form-control"  id="EdittxtMateria1" placeholder="Ingrese el curso del estudiante">
+            <div class="form-group">
+                <label for="txtCurso">Matera 2:</label>
+                <input type="text" class="form-control"  id="EdittxtMateria2" placeholder="Ingrese el curso del estudiante">
+            <div class="form-group">
+                <label for="txtCurso">Materia 3:</label>
+                <input type="text" class="form-control"  id="EdittxtMateria3" placeholder="Ingrese el curso del estudiante">
+            <div class="form-group">
+                <label for="txtCurso">Nota 1:</label>
+                <input type="text" class="form-control"  id="EdittxtNota1" placeholder="Ingrese el curso del estudiante">
+            <div class="form-group">
+                <label for="txtCurso">Nota 2:</label>
+                <input type="text" class="form-control"  id="EdittxtNota2" placeholder="Ingrese el curso del estudiante">
+            <div class="form-group">
+                <label for="txtCurso">Nota 3:</label>
+                <input type="text" class="form-control"  id="EdittxtNota3" placeholder="Ingrese el curso del estudiante">
+
+            <div class="form-group">
+                <label for="txtCurso">Juicio</label>
+                <input type="text" class="form-control" id="EdittxtJuicio" placeholder="Ingrese el curso del estudiante">
+
+                <br>
+            
+            <label for="txtCursoo">Buscar:</label>
+            <input type="text" class="form-control" id="EdittxtCodigoo" placeholder="Ingrese el codigo a buscar"><br>
+            <button type="button" class="btn btn-dark" id="EditbtnBuscarEstudiante">Buscar</button>
+            <button type="button" class="btn btn-dark" id="btnActalizar">Actualizar</button>
+            <br><br>
+            
+        </form>
+    </div>
+
+</body>
+</html>
